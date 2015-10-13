@@ -45,8 +45,9 @@
   <ItemGroup>
     <Compile Include="EnemyAttacker.cs" />
     <Compile Include="EnemyRobot.cs" />
+    <Compile Include="EnemyRobotAdapter.cs" />
     <Compile Include="EnemyTank.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="TestEnemyAttackers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

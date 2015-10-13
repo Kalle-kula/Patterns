@@ -17,18 +17,18 @@ namespace Adapter
         public void fireWeapon()
         {
             int attackDamage = generator.Next(10) + 1;
-            Console.WriteLine("Enemy tank does" + attackDamage + " damage");
+            Console.WriteLine("Enemy tank does " + attackDamage + " damage");
         }
 
         public void driveForward()
         {
             int movement = generator.Next(5) + 1;
-            Console.WriteLine("Enemy Tank moves" + movement + "spaces");
+            Console.WriteLine("Enemy Tank moves " + movement + " spaces");
         }
 
         public void assignDriver(string driverName)
         {
-            Console.WriteLine(driverName + "is driving the tank");
+            Console.WriteLine(driverName + " is driving the tank");
             Console.ReadLine();
         }
 

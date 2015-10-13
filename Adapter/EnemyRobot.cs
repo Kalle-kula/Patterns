@@ -13,5 +13,24 @@ namespace Adapter
     class EnemyRobot
     {
         Random generator = new Random();
+
+        public void smashWithHands()
+        {
+            int attackDamage = generator.Next(10) + 1;
+            Console.WriteLine("Enemy robot causes " + attackDamage + " damage with it's hands");
+        }
+
+        public void walkForward()
+        {
+            int movement = generator.Next(5) + 1;
+            Console.WriteLine("Enemy robot moves " + movement + " spaces");
+        }
+
+        public void reactToHuman(string driverName)
+        {
+            Console.WriteLine("Enemy robot crushes " + driverName);
+            Console.ReadLine();
+        }
+        
     }
 }
