@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChainOfResposibility
 {
-    class MultiNumbers : Chain
+    class MultiNumbers : IChain
     {
-        private Chain nextInChain;
+        private IChain nextInChain;
 
-        public void setNextChain(Chain nextChain)
+        public void setNextChain(IChain nextChain)
         {
             nextInChain = nextChain;
         }

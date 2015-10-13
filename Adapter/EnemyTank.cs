@@ -10,7 +10,7 @@ namespace Adapter
 	// Our job is to make classes with different methods
 	// from EnemyAttacker to work with the EnemyAttacker interface
 
-    class EnemyTank : EnemyAttacker
+    class EnemyTank : IEnemyAttacker
     {
         Random generator = new Random();
 

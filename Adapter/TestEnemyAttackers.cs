@@ -14,7 +14,7 @@ namespace Adapter
 
             EnemyRobot KalleTheRobot = new EnemyRobot();
 
-            EnemyAttacker robotAdapter = new EnemyRobotAdapter(KalleTheRobot);
+            IEnemyAttacker robotAdapter = new EnemyRobotAdapter(KalleTheRobot);
 
             Console.WriteLine("The Robot (EnemyRobot.cs)");
 

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ChainOfResposibility
 {
-    public class AddNumbers : Chain
+    public class AddNumbers : IChain
     {
-        private Chain nextInChain;
+        private IChain nextInChain;
         // Defines the next Object to receive the
         // data if this one can't use it
-        public void setNextChain(Chain nextChain)
+        public void setNextChain(IChain nextChain)
         {
             nextInChain = nextChain;
         }

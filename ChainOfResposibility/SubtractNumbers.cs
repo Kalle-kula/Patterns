@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChainOfResposibility
 {
-    class SubtractNumbers : Chain
+    class SubtractNumbers : IChain
     {
-        private Chain nextInChain;
+        private IChain nextInChain;
         
-        public void setNextChain(Chain nextChain)
+        public void setNextChain(IChain nextChain)
         {
             nextInChain = nextChain;
         }

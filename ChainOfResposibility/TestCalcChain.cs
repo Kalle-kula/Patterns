@@ -12,10 +12,10 @@ namespace ChainOfResposibility
         {
             // Here I define all of the objects in the chain
 
-            Chain chainCalc1 = new AddNumbers();
-            Chain chainCalc2 = new SubtractNumbers();
-            Chain chainCalc3 = new MultiNumbers();
-            Chain chainCalc4 = new DivideNumbers();
+            IChain chainCalc1 = new AddNumbers();
+            IChain chainCalc2 = new SubtractNumbers();
+            IChain chainCalc3 = new MultiNumbers();
+            IChain chainCalc4 = new DivideNumbers();
 
             // Here I tell each object where to forward the
             // data if it can't process the request

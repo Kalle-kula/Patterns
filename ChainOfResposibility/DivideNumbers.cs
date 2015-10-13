@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChainOfResposibility
 {
-    public class DivideNumbers : Chain
+    public class DivideNumbers : IChain
     {
-        private Chain nextInChain;
+        private IChain nextInChain;
 
-        public void setNextChain(Chain nextChain)
+        public void setNextChain(IChain nextChain)
         {
             nextInChain = nextChain;
         }

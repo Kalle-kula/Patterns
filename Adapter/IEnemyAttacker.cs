@@ -10,7 +10,7 @@ namespace Adapter
 	// expects to work with. It is the adapters job to make new
 	// classes compatible with this one.
 
-    public interface EnemyAttacker
+    public interface IEnemyAttacker
     {
         void fireWeapon();
         void driveForward();

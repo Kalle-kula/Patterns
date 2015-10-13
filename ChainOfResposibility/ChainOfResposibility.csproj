@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddNumbers.cs" />
-    <Compile Include="Chain.cs" />
+    <Compile Include="IChain.cs" />
     <Compile Include="DivideNumbers.cs" />
     <Compile Include="MultiNumbers.cs" />
     <Compile Include="Numbers.cs" />
