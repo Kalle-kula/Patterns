@@ -1,0 +1,7 @@
+﻿Bygg en lösning med ett konsolprojekt där du lägger till följande klasser:
+
+InstrumentFlyweightFactory. Den ska ha en GetInstrument-metod som ska returnera 
+ett instrument av typen Violin, Trumpet eller Drum baserat på en parameter.
+
+I Main-metoden ska du skapa två instanser av respektive instrumettyp och verifiera att
+HashCode stämmeröverens mellan dessa respektive två instanser.

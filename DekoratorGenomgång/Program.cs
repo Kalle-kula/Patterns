@@ -16,7 +16,7 @@ namespace DekoratorGenomgång
             cake = new MeringuesOptions(cake);
             cake = new MMsOption(cake);
             Console.WriteLine("Cost for cake is {0}", cake.Cost);
-            Console.ReadLine();
+            Console.ReadLine();            
         }
     }
 }

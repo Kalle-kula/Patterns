@@ -1,0 +1,4 @@
+﻿Gör en Calculator med add-funktionalitet av två tal. 
+Levera svaret av additionen i en Read-operation (enligt CQRS) eller egenskap. 
+Gör en proxy som delegerar vidare anropet till Add efter att två tar matats in från konsolen. (proxyn loggar talen och resultatet och skriver ut dem)
+Logga talen och svaret till en fil. Visa svaret på konsolen.
